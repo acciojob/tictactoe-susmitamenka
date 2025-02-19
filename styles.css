@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+body{
+	text-align:center;
+}
+.container{
+	width:300px;
+	margin:50px auto;
+}
+input{
+	display:block;
+	width:100%;
+	margin:10px 0;
+	padding:8px;
+}
+button{
+	padding:10px;
+	width:100%;
+	cursor:pointer;
+	color:white;
+	background-color:black;
+	 border:none; 
+	}
+button:hover{
+	background-color:green;
+}
+.message{
+	margin:20px 0;
+	font-size:20px;
+}
+.board{
+	display:grid;
+	grid-template-columns:repeat(3,100px);
+	grid-template-rows:repeat(3,100px);
+	gap:5px;
+}
+.cell{
+	height:100px;
+	width:100px;
+	border:2px solid;
+	background-color:pink;
+	align-items:center;
+	justify-content:center;
+	font-size:2em;
+	cursor:pointer;
+	}
+.cell:hover{
+	background-color:purple;
+}
